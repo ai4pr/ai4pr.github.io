@@ -218,7 +218,7 @@ kramdown:
 
 # These settings control the types of collections used by the template
 collections:
-  teaching:
+  news:
     output: true
     permalink: /:collection/:path/
   publications:
@@ -252,10 +252,10 @@ defaults:
     values:
       layout: single
       author_profile: true
-  # _teaching
+  # _news
   - scope:
       path: ""
-      type: teaching
+      type: news
     values:
       layout: single
       author_profile: true

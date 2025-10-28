@@ -23,6 +23,6 @@ main:
   - title: "Talks"
     url: /talks/
 
-  - title: "Blog"
-    url: /blog/
+  # - title: "Blog"
+  #   url: /blog/
     

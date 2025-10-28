@@ -230,6 +230,9 @@ collections:
   talks:
     output: true
     permalink: /:collection/:path/
+  vacancies:
+    output: true
+    permalink: /:collection/:path/
 
 
 # These settings control how pages and collections are included in the site
@@ -261,10 +264,19 @@ defaults:
       author_profile: true
       share: true
       comments: true
-  # _publications
+    # _news
   - scope:
       path: ""
-      type: publications
+      type: news
+    values:
+      layout: single
+      author_profile: true
+      share: true
+      comments: true
+  # _vacancies
+  - scope:
+      path: ""
+      type: vacancies
     values:
       layout: single
       author_profile: true

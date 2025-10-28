@@ -1,0 +1,18 @@
+---
+layout: archive
+title: "Vacancies"
+permalink: /vacancies/
+author_profile: true
+---
+
+We are looking for PhD students, postdoctoral researchers, and research assistants interested in pursuing cutting-edge research at the intersection of AI agents and program reasoning.  Ideal candidates will have strong backgrounds in program analysis, formal methods, AI agents, software engineering, or machine learning.  Specific positions are advertised below.
+
+<p>Please email either or both Lead PIs with your CV (including your research focus and publication list or projects):
+<a href="mailto:c.cadar@imperial.ac.uk">Prof. Cristian Cadar</a> and
+<a href="mailto:abhik@nus.edu.sg">Prof. Abhik Roychoudhury</a>.
+
+{% include base_path %}
+
+{% for post in site.vacancies reversed %}
+  {% include archive-single.html %}
+{% endfor %}

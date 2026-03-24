@@ -6,10 +6,6 @@ redirect_from:
   - /about/
   - /about.html
 ---
-**Background**
-This is a research program funded by National Research Foundation (NRF) Singapore under the auspices of its AI for Science efforts.
-The current research program will run 2026-30. 
-
 **Overview:**
 Software bugs and security vulnerabilities pose critical threats to systems our society depends on, leading to economic losses, privacy breaches, accidents, and hindered scientific progress.
 With the advent of Large Language Models (LLMs), an increasing amount of code is generated automatically by autonomous coding agents.

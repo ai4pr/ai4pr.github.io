@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "AI for Program Reasoning: NRF AI for Science Project"
+title: "AI for Program Reasoning"
 author_profile: true
 redirect_from: 
   - /about/

@@ -22,17 +22,19 @@ When you are initially working on your website, it is very useful to be able to 
 1. Clone the repository and made updates as detailed above.
 
 ### Using a different IDE
-1. Make sure you have ruby-dev, bundler, and nodejs installed
+1. Make sure you have ruby-dev, bundler, and Node.js 24 installed
     
     On most Linux distribution and [Windows Subsystem Linux](https://learn.microsoft.com/en-us/windows/wsl/about) the command is:
     ```bash
-    sudo apt install ruby-dev ruby-bundler nodejs
+    sudo apt install ruby-dev ruby-bundler
+    curl -fsSL https://deb.nodesource.com/setup_24.x | sudo -E bash -
+    sudo apt install nodejs
     ```
     If you see error `Unable to locate package ruby-bundler`, `Unable to locate package nodejs `, run the following:
     ```bash
     sudo apt update && sudo apt upgrade -y
     ```
-    then try run `sudo apt install ruby-dev ruby-bundler nodejs` again.
+    then try the install commands again.
 
     On MacOS the commands are:
     ```bash

@@ -52,6 +52,33 @@ redirect_from:
   </table>
 </section>
 
+<!-- Sorted by last name -->
+<section>
+  <h2>Research Fellows</h2>
+  <table>
+    <tr>
+      <td style="text-align:center;">
+        <img src="/images/team/sakib-anwar.jpg" style="width:240px; height:240px; object-fit:cover; border:1px solid black;"><br>
+        <h1><br/>
+            Md Sakib Anwar<br/>
+            Imperial Global Singapore</h1>
+      </td>
+      <td style="text-align:center;">
+        <img src="/images/team/sogol-masoumzadeh.JPG" style="width:240px; height:240px; object-fit:cover; border:1px solid black;"><br>
+        <h1><br/>
+            Sogol Masoumzadeh<br/>
+            Imperial Global Singapore</h1>
+      </td>
+      <td style="text-align:center;">
+        <img src="/images/team/momoko-shiraishi.jpg" style="width:240px; height:240px; object-fit:cover; border:1px solid black;"><br>
+        <h1><br/>
+            Momoko Shiraishi<br/>
+            Imperial Global Singapore</h1>
+      </td>
+    </tr>
+  </table>
+</section>
+
 <section>
   <h2>Collaborators</h2>
   <table>

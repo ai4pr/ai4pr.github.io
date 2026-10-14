@@ -5,7 +5,7 @@ category: conferences
 permalink: /publication/2026-lemmanet
 date: 2026-10-12
 venue: 'IEEE/ACM International Conference on Automated Software Engineering (ASE 2026)'
-paperurl: 'https://arxiv.org/abs/2603.22114'
+paperurl: 'https://arxiv.org/pdf/2603.22114'
 ---
 
 Deductive verification provides strong correctness guarantees by generating verification conditions (VCs) from a program and its specification and proving them formally. Proving these VCs is the expertise-intensive bottleneck, and LLM-based proof agents have recently begun to automate part of it. However, existing proof agents cannot discover auxiliary lemmas, so they struggle as programs grow larger and more complex.

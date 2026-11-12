@@ -1,11 +1,14 @@
 name: Scrape Talk Locations
 
+# Auto-trigger disabled: the talk map is not used on the site (talkmap_link: false).
+# Re-enable by restoring the push trigger below.
 on:
-  push:
-    paths:
-      - 'talks/**'
-      - '_talks/**'
-      - 'talkmap.ipynb'
+  workflow_dispatch:
+#  push:
+#    paths:
+#      - 'talks/**'
+#      - '_talks/**'
+#      - 'talkmap.ipynb'
 
 jobs:
   build:
